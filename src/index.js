@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { Todo } from "./Todo";
+import { TodoList } from './TodoList';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Todo text="juan" ></Todo> */}
+    {/* <TodoList todoList={[<Todo text='juan'/>, <Todo text='manuel'/>]}></TodoList> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
